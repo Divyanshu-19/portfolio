@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+:root {
+  --blog-background: #a5b4fc;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: aqua;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+  background-color: var(--blog-background);
+  padding: 2rem 2rem;
+  border-radius: 1rem;
+}
